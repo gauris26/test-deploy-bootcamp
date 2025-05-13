@@ -8,12 +8,13 @@ function App() {
   }
 
   return (
-    <div className="App">
-        <h1>Bienvenido a mi Aplicacion React con Typescript</h1>
+    <div className="App" style={{ padding: '50px' }}>
+        <h1>Bienvenido a mi Aplicacion React con Typescript desplegada en Github Pages usando Actions</h1>
         <h2>Powered by Talendig SLR</h2>
         <p>Esta es una pagina para ilustrar el despliegue en Github Pages usando Github Actions</p>
+        <hr/>
         
-        <button onClick={toggleMessage}>
+        <button onClick={toggleMessage} style={{ padding: '10px 20px', fontSize: '16px' }}>
           {showMessage ? "Ocultar Mensaje" : "Mostrar Mensaje"}
         </button>
         {
